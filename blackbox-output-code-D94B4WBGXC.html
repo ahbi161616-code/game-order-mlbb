@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasa Pemesanan Barang Game - ML & Lainnya</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Jasa Pemesanan Barang Game</h1>
+        <p>Pesan item game seperti Mobile Legends (ML), Free Fire, dan lainnya dengan cepat dan aman!</p>
+    </header>
+
+    <section id="services">
+        <h2>Layanan Kami</h2>
+        <ul>
+            <li>Mobile Legends: Diamonds, Skins, Heroes</li>
+            <li>Free Fire: Diamonds, Bundles</li>
+            <li>Game Lainnya: Sesuai permintaan</li>
+        </ul>
+    </section>
+
+    <section id="order-form">
+        <h2>Pesan Sekarang</h2>
+        <form id="orderForm">
+            <label for="game">Pilih Game:</label>
+            <select id="game" required>
+                <option value="">--Pilih--</option>
+                <option value="ml">Mobile Legends</option>
+                <option value="ff">Free Fire</option>
+                <option value="other">Lainnya</option>
+            </select>
+
+            <label for="item">Item yang Dipesan:</label>
+            <input type="text" id="item" placeholder="Contoh: 100 Diamonds" required>
+
+            <label for="quantity">Jumlah:</label>
+            <input type="number" id="quantity" min="1" required>
+
+            <label for="email">Email Anda:</label>
+            <input type="email" id="email" placeholder="email@example.com" required>
+
+            <button type="submit">Pesan</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Kontak: support@gameorder.com | © 2023 Jasa Game</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
